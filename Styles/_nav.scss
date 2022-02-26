@@ -1,0 +1,21 @@
+
+nav{
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+
+        li{
+            flex-direction: row;
+            margin: 15px;
+        }
+    
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+}

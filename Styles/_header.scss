@@ -1,0 +1,18 @@
+
+header{
+    height: 100px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .logo{
+       margin: 15px;
+       width: 90px;
+       height: 20px;
+       justify-self: flex-start;
+    }
+}
+
+@import'nav'
