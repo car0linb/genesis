@@ -1,0 +1,53 @@
+.awards{
+    max-width: 1400px;
+    width: 100%;
+    min-height: 900px;
+    margin: 50px;
+    // display: flex;
+    // justify-content: center;
+
+    h3{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 28px;
+        margin: 15px;
+    }
+
+    h4{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        margin: 15px;
+    }
+
+    h5{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 26px;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+    }
+
+
+    .awards_1{
+        width: 80%;
+        border-top: solid 3px #D8D8D8;
+        margin: 50px;
+        padding: 50px;
+    }
+
+    .awards_2{
+        width: 80%;
+        border-top: 3px solid #D8D8D8;
+        border-bottom: 3px solid #D8D8D8;
+        margin: 50px;
+        padding: 50px;
+    }
+
+}
