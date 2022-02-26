@@ -1,0 +1,38 @@
+.service-list{
+    max-width: 1400;
+    min-height: 200px;
+    padding: 50px;
+    margin: 50px;
+
+
+    .service-list-content{
+        max-width: 1079px;
+        height: 106px;
+        display: flex;
+        justify-content: space-evenly;
+
+        .service-list-title{
+            max-width: 635px;
+            width: 100%;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 38px;
+            color: black;
+        }
+
+        li{
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        color: #111111;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+        margin: 10px;
+        }
+
+
+
+
+    }
+}
