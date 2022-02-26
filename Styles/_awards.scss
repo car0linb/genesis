@@ -25,6 +25,7 @@
     h5{
         font-size: 16px;
         line-height: 20px;
+        margin: 15px;
     }
 
     p{
@@ -35,19 +36,28 @@
     }
 
 
-    .awards_1{
+    .awards1{
         width: 80%;
         border-top: solid 3px #D8D8D8;
         margin: 50px;
         padding: 50px;
+        display: flex;
+        justify-content: space-evenly;
     }
 
-    .awards_2{
+    .awards2{
         width: 80%;
         border-top: 3px solid #D8D8D8;
         border-bottom: 3px solid #D8D8D8;
         margin: 50px;
         padding: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .award-g{
+        width: 190px;
+        height: 110px;
     }
 
 }
