@@ -1,4 +1,4 @@
-.project-title{
+.pr{
     width: 1400;
     min-height: 400px;
     padding: 20px;
@@ -8,12 +8,13 @@
     // flex-flow: row wrap;
     
 
-    .title-content{
+    .title{
 
         display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        
+        flex-direction: column;
+        box-sizing: border-box;
+        display: block;
+
       
 
         h1{ 
