@@ -43,6 +43,7 @@
         padding: 50px;
         display: flex;
         justify-content: space-evenly;
+        flex-direction: row;
     }
 
     .awards2{
@@ -60,4 +61,22 @@
         height: 110px;
     }
 
+    .year{
+        display:flex;
+        flex-direction: column;
+        row-gap: 70px;
+    }
+
+    // .awards-title{
+    //     justify-content: flex-start;
+    // }
+
+
+    // footer{
+    //     width: 100%;
+    //     height: 400px;
+    //     display: flex;
+    //     flex-direction: row;
+    //     align-items: center;
+    // }
 }

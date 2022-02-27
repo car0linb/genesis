@@ -3,7 +3,13 @@
     display: flex;
     vertical-align: bottom;
     // align-items: baseline;
-    margin: 25px;
+    margin: 50px;
+
+    // .title-content{
+    //     max-width: 80%;
+    //     display: flex;
+    //     justify-content: space-evenly;
+    // }
 
     .title_content{
         width: 635px;
@@ -20,6 +26,9 @@
             font-size: 40px;
             line-height: 60px;
         }
+
+        .blue{
+            color:#4A4FF2}
     }   
 
     .quote{
