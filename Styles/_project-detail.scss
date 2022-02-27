@@ -1,0 +1,101 @@
+.project-title{
+    width: 1400;
+    min-height: 400px;
+    padding: 20px;
+    margin: 20px;
+
+    // display: flex;
+    // flex-flow: row wrap;
+    
+
+    .title-content{
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        
+      
+
+        h1{ 
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 55px;
+            width: 475px;
+            height: 110px;
+        }
+
+        p{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            width: 635px;
+            height: 222px;
+            margin: 25px;
+        }
+
+
+    }
+
+    .details{
+
+        display: block;
+
+        tr{
+            border-bottom: 2px solid lightgrey;
+
+        }
+
+        th{
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 23px;
+            /* identical to box height */
+            color: #111111;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            padding: 15px;
+        }
+
+        td{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 23px;
+            padding: 15px;
+        }
+    }
+}
+
+.projects{
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 45px;
+    
+
+    .caption{
+        width: 1109px;
+        height: 93px;
+        margin: 15px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+        color: #111111;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+    .p_images{
+        display: flex;
+        column-gap: 30px;
+        margin-bottom: 30px;
+    }
+}
