@@ -1,5 +1,11 @@
 
-
+@import'header-footer';
+@import'landing';
+@import'group';
+@import'service-list';
+@import 'awards';
+@import 'project-detail';
+@import 'contact';
 
 html{
     background-color: #f7f7f7
@@ -18,11 +24,8 @@ body{
     line-height: 23px;
 }
 
-@import'header-footer';
-@import'landing';
-@import'group';
-@import'service-list';
-@import 'awards';
-@import 'project-detail';
-@import 'contact';
+a:hover{
+    color: coral;
+}
+
 
